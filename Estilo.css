@@ -1,0 +1,222 @@
+/* GOOGLE FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200&display=swap');
+
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #C8BBAA;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./imagenes/cafeee1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* NAVEGACION */
+
+nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo {
+    width: 130px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.nav-menu {
+    position: relative;
+    height: 100px;
+    top: 0;
+    background: none;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.nav-menu li {
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 20px;
+}
+
+.nav-menu li a {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* BANNER TEXT */
+
+.banner-text {
+    padding: 0 30px;
+    margin-top: 150px;
+    text-align: center;
+    color: #260801;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+/* Encabezado
+
+h1 {
+    color: #400101;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 100px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul li a {
+    margin-inline-start: 120px;
+    text-decoration: none;
+    color: #D9843B;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px;
+    padding-bottom: 60px;
+} */
+
+
+/* Header
+
+header {
+    border: 2px solid #400101;
+    background-image: url("./imagenes/cafe.jpg");
+    background-size: 100% 1080px;
+    background-repeat: no-repeat;
+    background-position: no;
+    height: 20rem;
+    width: 100%;
+} */
+
+
+/* Main */
+
+main {
+    text-align: center;
+    padding-top: 60px;
+}
+
+main p {
+    margin: 15px 50px;
+}
+
+
+/* Footer */
+
+.piePagina {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #D9843B 2px solid;
+}
+
+.piePagina li {
+    margin: 30px;
+}
+
+
+/* Productos */
+
+.contenedorProductos img {
+    width: 300px;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    padding: 25px;
+    align-items: center;
+}
+
+
+/* video */
+
+main iframe {
+    margin: 60px;
+}
+
+
+/* Galeria */
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    padding: 5px;
+}
+
+.column {
+    flex: 25%;
+    padding: 5px;
+}
+
+.column img {
+    margin-top: 5px;
+}
+
+
+/* seccion proceso */
+
+.contenedorProceso img {
+    width: 300px;
+    display: flex;
+    padding: 25px;
+    flex-direction: row;
+}
+
+.contenedorProceso p {
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    margin-inline-start: 120px;
+    color: #400101;
+    font-weight: lighter;
+    margin: 20px;
+}
+
+
+/* Contacto */
