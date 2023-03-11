@@ -1,0 +1,34 @@
+//HEADER    
+header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.7)), url(../imagenes/cafeee1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: block;
+}
+
+.header {
+    &:after {
+        content: '';
+        background-color: $background-color_3;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: .5;
+    }
+}
+
+//BANNER
+.banner-text {
+    padding: 0 30px;
+    margin-top: 150px;
+    text-align: center;
+    color: $color_1;
+    font-weight: bold;
+    font-size: 25px;
+}
