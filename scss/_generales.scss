@@ -1,3 +1,4 @@
+@use "variables" as v;
 //ESTILOS GENERALES
 html {
     font-size: 62.5%;
@@ -31,4 +32,20 @@ body {
         background: rgba(0, 0, 0, .5);
         content: '';
     }
+}
+
+.title-secundario {
+    font-family: $font-family_1;
+    font-size: 3rem;
+    color: v.$secundario;
+    line-height: 2;
+    padding-bottom: 4rem;
+}
+
+.card-text {
+    font-family: $font-family_1;
+    font-size: 2rem;
+    color: v.$primario;
+    line-height: 2;
+    padding-bottom: 4rem;
 }
