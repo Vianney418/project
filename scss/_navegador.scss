@@ -1,11 +1,11 @@
 //MIXIN
 @mixin anclas {
-    color: $color_1;
+    color: $blanco;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 15px;
-    color: $color_3;
+    color: $blanco;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -27,7 +27,7 @@ nav {
 
 .bar-btn {
     font-size: 25px;
-    color: $color_1;
+    color: $blanco;
     margin-right: 20px;
     cursor: pointer;
 }
@@ -57,12 +57,12 @@ nav {
         a {
             @include anclas;
             &:hover {
-                color: $color_2;
+                color: $secundario;
                 transition: .3s;
             }
         }
         a.active {
-            color: $color_2;
+            color: $secundario;
             transition: .3s;
         }
     }

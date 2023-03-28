@@ -13,7 +13,7 @@ header {
 .header {
     &:after {
         content: '';
-        background-color: $background-color_3;
+        background-color: $negro;
         position: absolute;
         top: 0;
         left: 0;
@@ -28,7 +28,7 @@ header {
     padding: 0 30px;
     margin-top: 20vh;
     text-align: center;
-    color: $color_1;
+    color: $blanco;
     font-weight: bold;
     font-size: 25px;
 }

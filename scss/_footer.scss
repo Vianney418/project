@@ -5,9 +5,9 @@
     width: 45px;
     height: 45px;
     line-height: 45px;
-    color: $color_5;
+    color: $negro;
     margin-right: 10px;
-    background-color: $background-color_4;
+    background-color: $secundario;
     text-align: center;
     transition: all 300ms ease;
 }
@@ -15,7 +15,7 @@
 //FOOTER
 .piePagina {
     width: 100%;
-    background-color: $background-color_1;
+    background-color: $primario;
     .grupo-1 {
         width: 100%;
         max-width: 1200px;
@@ -36,12 +36,12 @@
                 }
             }
             h3 {
-                color: $color_5;
+                color: $blanco;
                 margin-bottom: 25px;
                 font-size: 20px;
             }
             p {
-                color: $color_6;
+                color: $blanco;
                 margin-bottom: 10px;
             }
         }
@@ -49,16 +49,16 @@
             a {
                 @include anclas;
                 &:hover {
-                    color: $color_7;
+                    color: $vinotinto;
                 }
             }
         }
     }
     .grupo-2 {
-        background-color: $background-color_5;
+        background-color: $secundario;
         padding: 15px 10px;
         text-align: center;
-        color: $color_8;
+        color: $negro;
         small {
             font-size: 15px;
         }

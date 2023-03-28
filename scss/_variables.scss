@@ -1,15 +1,23 @@
-$color_1: #fff;
-$color_2: #D9843B;
-$color_3: white;
-$color_4: #400101;
-$color_5: #000;
-$color_6: aliceblue;
-$color_7: aqua;
-$color_8: #000000;
 $font-family_1: 'Montserrat',
 sans-serif;
-$background-color_1: #C8BBAA;
-$background-color_2: #fff;
-$background-color_3: #000;
-$background-color_4: #e2ae81;
-$background-color_5: rgb(221, 190, 150);
+// Fuentes
+$fuentePrincipal: 'Raleway',
+sans-serif;
+$fuenteSecundaria: 'Roboto',
+sans-serif;
+$fuenteCursiva: 'Bona Nova',
+serif;
+// Media Queries
+$telefono: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+// Colores
+$primario: #5E311E;
+$secundario: #C39C63;
+$negro: #000000;
+$blanco: #FFFFFF;
+$grisClaro: #eceeef;
+$cafeClaro: #ebe7de;
+$vinotinto: #400101;
+// Unidades
+$separacion: 5rem;

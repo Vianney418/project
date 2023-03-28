@@ -22,7 +22,7 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #C8BBAA;
+  background-color: #C39C63;
   font-size: 1.6rem;
   margin: 0;
   display: block;
@@ -47,7 +47,7 @@ header {
 
 .header:after {
   content: "";
-  background-color: #000;
+  background-color: #000000;
   position: absolute;
   top: 0;
   left: 0;
@@ -60,7 +60,7 @@ header {
   padding: 0 30px;
   margin-top: 20vh;
   text-align: center;
-  color: #fff;
+  color: #FFFFFF;
   font-weight: bold;
   font-size: 25px;
 }
@@ -81,7 +81,7 @@ nav {
 
 .bar-btn {
   font-size: 25px;
-  color: #fff;
+  color: #FFFFFF;
   margin-right: 20px;
   cursor: pointer;
 }
@@ -111,21 +111,21 @@ nav {
   margin: 0 20px;
 }
 .nav-menu li a {
-  color: #fff;
+  color: #FFFFFF;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 15px;
-  color: white;
+  color: #FFFFFF;
   font-weight: bold;
   text-transform: uppercase;
 }
 .nav-menu li a:hover {
-  color: #D9843B;
+  color: #C39C63;
   transition: 0.3s;
 }
 .nav-menu li a.active {
-  color: #D9843B;
+  color: #C39C63;
   transition: 0.3s;
 }
 
@@ -150,7 +150,7 @@ nav {
 }
 
 .contenido-principal {
-  background-color: #fff;
+  background-color: #FFFFFF;
   padding: 8% 2%;
   margin-top: -10rem;
   position: relative;
@@ -223,7 +223,7 @@ img {
 
 .piePagina {
   width: 100%;
-  background-color: #C8BBAA;
+  background-color: #5E311E;
 }
 .piePagina .grupo-1 {
   width: 100%;
@@ -245,12 +245,12 @@ img {
   width: 250px;
 }
 .piePagina .grupo-1 .box h3 {
-  color: #000;
+  color: #FFFFFF;
   margin-bottom: 25px;
   font-size: 20px;
 }
 .piePagina .grupo-1 .box p {
-  color: aliceblue;
+  color: #FFFFFF;
   margin-bottom: 10px;
 }
 .piePagina .grupo-1 .red-social a {
@@ -259,17 +259,17 @@ img {
   width: 45px;
   height: 45px;
   line-height: 45px;
-  color: #000;
+  color: #000000;
   margin-right: 10px;
-  background-color: #e2ae81;
+  background-color: #C39C63;
   text-align: center;
   transition: all 300ms ease;
 }
 .piePagina .grupo-1 .red-social a:hover {
-  color: aqua;
+  color: #400101;
 }
 .piePagina .grupo-2 {
-  background-color: rgb(221, 190, 150);
+  background-color: #C39C63;
   padding: 15px 10px;
   text-align: center;
   color: #000000;
@@ -300,6 +300,80 @@ img {
     grid-gap: 30px;
     padding: 35px 0px;
   }
+}
+.nuestro-menu {
+  background-image: url(../imagenes/menu_arriba.svg), linear-gradient(to top, #5E311E, #5E311E);
+  background-repeat: no-repeat;
+  background-position: center 5rem, center center;
+  padding: 15rem 5rem 20rem 5rem;
+}
+.nuestro-menu h2 {
+  font-size: 3.6rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+.nuestro-menu h2 span {
+  color: #FFFFFF;
+  font-size: 1.8rem;
+  display: block;
+}
+.nuestro-menu h2::after {
+  content: "";
+  display: block;
+  width: 10rem;
+  height: 10rem;
+  margin: 0 auto;
+  background-size: 10rem;
+}
+
+.grid-menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+}
+
+.menu {
+  padding: 20px;
+}
+.menu h3 {
+  color: #ebe7de;
+  font-size: bold;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.menu li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu li p {
+  color: #FFFFFF;
+  font-size: 2rem;
+  line-height: 1.5rem;
+  margin: 0 0 3rem 0;
+}
+.menu li p span {
+  display: block;
+  color: #C39C63;
+}
+.menu li .precio {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.text-menu {
+  font-size: bold;
+  font-size: 3rem;
+  color: #400101;
+  text-align: center;
+  padding: 0 0 4rem 0;
+}
+
+.Pmenu {
+  font-size: medium;
+  font-size: 2rem;
+  color: #000000;
+  padding: 0 0 4rem 0;
 }
 
 /*# sourceMappingURL=Estilo.css.map */

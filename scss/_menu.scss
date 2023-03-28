@@ -1,0 +1,69 @@
+@use "variables" as v;
+.nuestro-menu {
+    background-image: url(../imagenes/menu_arriba.svg), linear-gradient(to top, v.$primario, v.$primario);
+    background-repeat: no-repeat;
+    background-position: center 5rem, center center;
+    padding: 15rem 5rem 20rem 5rem;
+    h2 {
+        font-size: 3.6rem;
+        color: v.$blanco;
+        text-align: center;
+        span {
+            color: v.$blanco;
+            font-size: 1.8rem;
+            display: block;
+        }
+        &::after {
+            content: "";
+            display: block;
+            width: 10rem;
+            height: 10rem;
+            margin: 0 auto;
+            background-size: 10rem;
+        }
+    }
+}
+
+.menu {
+    padding: 20px;
+    h3 {
+        color: v.$cafeClaro;
+        font-size: bold;
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+    li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p {
+            color: v.$blanco;
+            font-size: 2rem;
+            line-height: 1.5rem;
+            margin: 0 0 3rem 0;
+            span {
+                display: block;
+                color: v.$secundario;
+            }
+        }
+        .precio {
+            font-size: 3rem;
+            font-weight: 500;
+        }
+    }
+}
+
+.text-menu {
+    font-size: bold;
+    font-size: 3rem;
+    color: v.$vinotinto;
+    text-align: center;
+    padding: 0 0 4rem 0;
+}
+
+.Pmenu {
+    font-size: medium;
+    font-size: 2rem;
+    color: v.$negro;
+    padding: 0 0 4rem 0;
+}
