@@ -11,9 +11,12 @@
 
 .contenido-principal {
     background-color: $blanco;
-    padding: 8% 2%;
+    padding: 5% 2%;
     margin-top: -10rem;
     position: relative;
+    &#galeria {
+        padding: 2%;
+    }
 }
 
 main {

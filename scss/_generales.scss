@@ -34,6 +34,7 @@ body {
     }
 }
 
+//titulos 
 .title-secundario {
     font-family: $font-family_1;
     font-size: 3rem;
@@ -42,10 +43,30 @@ body {
     padding-bottom: 4rem;
 }
 
+//titulos de imagenes index
 .card-text {
     font-family: $font-family_1;
     font-size: 2rem;
     color: v.$primario;
     line-height: 2;
     padding-bottom: 4rem;
+}
+
+//boton contactos
+.btn {
+    background-color: v.$vinotinto;
+    color: v.$cafeClaro;
+    font-size: 2rem;
+    border: none;
+    .btn:hover {
+        background-color: v.$vinotinto;
+        color: v.$cafeClaro;
+        cursor: pointer;
+    }
+}
+
+.navbar {
+    position: relative;
+    z-index: 9999;
+    /* Establecer un z-index alto */
 }

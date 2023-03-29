@@ -20,9 +20,33 @@ nav {
 }
 
 .Logo {
-    width: 130px;
+    max-width: 35%;
+    height: auto;
     margin-left: 20px;
     margin-top: 60px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    div {
+        max-width: 100%;
+        margin: auto;
+        text-align: left;
+    }
+    .Logo {
+        max-width: 35%;
+        height: auto;
+        margin-left: 20px;
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .Logo {
+        max-width: 60%;
+        /* establecer el ancho máximo del logo en el 60% */
+    }
 }
 
 .bar-btn {

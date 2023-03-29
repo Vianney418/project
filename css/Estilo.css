@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* GOOGLE FONTS */
 @import "https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200&display=swap";
 html {
@@ -50,10 +51,28 @@ body::before {
   padding-bottom: 4rem;
 }
 
+.btn {
+  background-color: #400101;
+  color: #ebe7de;
+  font-size: 2rem;
+  border: none;
+}
+.btn .btn:hover {
+  background-color: #400101;
+  color: #ebe7de;
+  cursor: pointer;
+}
+
+.navbar {
+  position: relative;
+  z-index: 9999;
+  /* Establecer un z-index alto */
+}
+
 header {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.7)), url(../imagenes/cafeee1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.7)), url(../imagenes/m-cafeee1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -74,7 +93,7 @@ header {
 
 .banner-text {
   padding: 0 30px;
-  margin-top: 20vh;
+  margin-top: 10vh;
   text-align: center;
   color: #FFFFFF;
   font-weight: bold;
@@ -90,11 +109,34 @@ nav {
 }
 
 .Logo {
-  width: 130px;
+  max-width: 35%;
+  height: auto;
   margin-left: 20px;
   margin-top: 60px;
 }
 
+#logo {
+  display: flex;
+  justify-content: center;
+}
+#logo div {
+  max-width: 100%;
+  margin: auto;
+  text-align: left;
+}
+#logo .Logo {
+  max-width: 35%;
+  height: auto;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 760px) {
+  .Logo {
+    max-width: 60%;
+    /* establecer el ancho máximo del logo en el 60% */
+  }
+}
 .bar-btn {
   font-size: 25px;
   color: #FFFFFF;
@@ -167,9 +209,12 @@ nav {
 
 .contenido-principal {
   background-color: #FFFFFF;
-  padding: 8% 2%;
+  padding: 5% 2%;
   margin-top: -10rem;
   position: relative;
+}
+.contenido-principal#galeria {
+  padding: 2%;
 }
 
 main {
@@ -384,6 +429,10 @@ img {
   font-size: 2rem;
   color: #5E311E;
   padding: 0 0 4rem 0;
+}
+
+section.menu ul li p {
+  text-align: left;
 }
 
 .card-titulo {
